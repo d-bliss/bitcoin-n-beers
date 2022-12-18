@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <!-- internal sytles.css stylesheet -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+        crossorigin="anonymous">
+    <!-- Font awesome for social links icons-->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="navbar-brand mx-auto text-center">
+            <h1 id="title">
+                Bitcoin-N-Beers</h1>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarNav" aria-controls="navbarNav"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto justify-content-around">
+                <li class="nav-item active">
+                    <a class="nav-link h4 font-weight-bold text-uppercase font-family-eb-garamond"
+                        href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link h4 font-weight-bold text-uppercase font-family-eb-garamond"
+                        href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link h4 font-weight-bold text-uppercase font-family-eb-garamond"
+                        href="resources.html">Resources</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link h4 font-weight-bold text-uppercase font-family-eb-garamond"
+                        href="#">Crypto & Coffee</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container mt-5">
+        <h1>CRYPTO & COFFEE</h1>
+        <p>I'm offering our new members a personal chat on Skype, or in person
+            to go
+            over the basics of Bitcoin, cryptocurrency and blockchain. I'm
+            offering this
+            to those new to crypto that would like a hand learning the basics of
+            how
+            things work, what scams to watch out for, and some general advice on
+            getting
+            started. You will be able to ask any questions you may have as well
+            as have
+            an opportunity to gain some hands on experience.</p>
+        <p>Email me and include your name, phone number, email, and best times
+            for you
+            to meet.
+        <div></div> You can reach me at <a
+            href="mailto:info@bitcoinandbeers.com">info@bitcoinandbeers.com</a>
+        </p>
+        <p>-Daniel<br>Bitcoin-N-Beers</p>
+
+    </div>
+    <footer>
+        <div class="container-fluid bg-light py-3">
+            <div class="container text-center">
+                <p>Copyright Bitcoin-N-Beers <span id="year"></span></p>
+                <!-- Social links -->
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://twitter.com/BitcoinNBeers/"
+                            target="_blank"><i
+                                class="fab fa-twitter fa-lg"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.meetup.com/bitcoin-n-beers-vancouver/"
+                            target="_blank"><i
+                                class="fab fa-meetup fa-lg"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script>
+        // Get the current year
+        const currentYear = new Date().getFullYear();
+        // Update the year in the copyright notice
+        document.getElementById("year").innerHTML = currentYear;
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

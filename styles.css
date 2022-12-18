@@ -1,0 +1,85 @@
+h1 {
+    font: normal 400 45px EB Garamond, serif;
+    /* sets the font for the title */
+}
+
+footer {
+    /* Custom styles go here */
+}
+
+footer p {
+    color: #777;
+    /* Light gray text color */
+    font-size: 17px;
+    /* Smaller font size */
+    margin: 0;
+    /* No margin */
+}
+
+footer span {
+    color: #333;
+    /* Dark gray text color */
+}
+
+#year {
+    color: #777;
+    /* Light gray text color */
+    font-size: 14px;
+    /* Smaller font size */
+    margin: 0;
+    /* No margin */
+}
+
+.image-container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    /* add 50px of top and bottom margin */
+}
+
+.fab {
+    font-size: 48px !important;
+    margin-top: 15px;
+    /* increases the size of the icon */
+}
+
+.fa-meetup {
+    color: red
+        /* changes the meetup logo from blue to red */
+}
+
+#ticker {
+    /* styles for the ticker container */
+    display: flex;
+    /* displays the ticker as a flex container */
+    align-items: center;
+    /* centers the content vertically within the container */
+    justify-content: center;
+    /* centers the content horizontally within the container */
+    width: 40%;
+    /* sets the width of the container to 50% of the page width */
+    height: 20%;
+    /* sets the height of the container to 200px */
+    margin: 0 auto;
+    /* centers the container horizontally within the page */
+    background-color: #ff9900;
+    /* sets the background color to the orange color of the Bitcoin logo */
+    border-radius: 15px;
+    /* rounds the corners of the container */
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    /* adds a drop shadow to the container */
+    margin-bottom: 70px;
+    /* adds margin to the bottom*/
+}
+
+#ticker p {
+    /* styles for the ticker text */
+    font-size: 2em;
+    /* increases the size of the text */
+    color: #ffffff;
+    /* sets the text color to white */
+    text-align: center;
+    /* centers the text within the container */
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    /* top and bottom margin around the price ticker text */
+}
