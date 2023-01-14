@@ -12,7 +12,8 @@ header{
 }
 
 footer {
-    /* Custom styles go here */
+    position: sticky;
+    bottom: 0;
 }
 
 footer p {
