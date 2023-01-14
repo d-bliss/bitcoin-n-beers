@@ -3,6 +3,10 @@ h1 {
     /* sets the font for the title */
 }
 
+.px-3 {
+    padding: 0 1rem !important;
+}
+
 .container {
   min-height: 100%;
 }
